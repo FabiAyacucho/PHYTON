@@ -9,7 +9,7 @@ const productos = [
       titulo: 'Producto 1',
       descripcion: 'Descripción del Producto 1',
       precio: 3699.00,
-      imagen: '../images/1.jpg',
+      imagen: 'images/1.jpg',
       categoria: {
         nombre:'Juguetes',
         id:'Juguetes'
