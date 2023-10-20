@@ -1,0 +1,136 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: 1vw 9vw;
+    font-size:2rem;
+    background-color: #e7a146;
+    border-radius: 10px;
+    margin: 3rem;
+  }
+  
+  .input-field {
+    padding: 1.5vw;
+    margin: 0.3rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    
+  }
+  
+  .textarea {
+    height: 8vh;
+    resize: vertical;
+  }
+  
+  
+  .submit-button{
+    background: linear-gradient(45deg, #FFDDCC, #FFDDCC);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px #111; 
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 0.7rem;
+  }
+  
+  .submit-button:hover {
+    background: linear-gradient(45deg, #fecebb, #feeebb);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+  }
+  #contacto{
+    margin-top: 5vw;
+  }
+  
+  .map{
+  
+    overflow:hidden;
+  
+    padding-bottom:35%;
+  
+    position:relative;
+  
+    height:0;
+  
+  }
+  
+  .map iframe{
+  
+    left:0;
+  
+    top:0;
+  
+    height:100%;
+  
+    width:100%;
+  
+    position:absolute;
+  
+    
+  
+  }
+  
+  p{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5vw;
+    color: white;
+    
+  }
+  .ingresa{
+    text-shadow: 10px 15px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .custom-file-upload {
+    border: 2px solid rgb(124, 123, 123);
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #555;
+    width: 20vw;
+    font-size: 2vw;
+  }
+  
+  .custom-file-upload:hover{
+    background-color: rgb(122, 121, 121);
+    color: white;
+    border: 2px solid white;
+    box-shadow: 6px 12px 24px rgba(68, 67, 67, 0.6);
+   
+  }
+  
+  .custom-file-upload i {
+    margin-right: 5px;
+  }
+
+  .contenedor-trabaja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trabaja{
+    font-size: 5vw;
+    color: white;
+    text-shadow: 10px 13px 4px rgba(0, 0, 0, 0.4);
+  }
+  .contenedor-cv{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+
+ 
+  
+  

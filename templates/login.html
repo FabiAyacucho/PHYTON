@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <title>Index</title>
+    </head>
+
+    <nav class="navbar">
+        <img src="../images/logis.png" alt="Logo" class="logos">
+        <a href="../index.html" class="titulo">INICIO</a>
+        <div class="search">
+            <input type="text" placeholder="Buscar">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    
+            <ul class="nav-links">
+                <li><a href="../templates/nosotros.html" class="navbar-opcion">QUIENES SOMOS</a></li>
+                <li><a href="../templates/trabaja_con_nostros.html"class="navbar-opcion">TRABAJA CON NOSOTROS</a></li>
+            </ul>
+            <div class="izquierda"></div>
+            <a href="../templates/carrito.html" class="login-icon"><i class="fas fa-shopping-cart"></i></a>
+            <a href="../templates/login.html" class="login-icon"><i class="fas fa-user"></i></a>
+            <a href="" class="login-icon"><i class="far fa-heart"></i></a>
+        </div>
+    </nav>
+    
+    
+    <body>
+    <section class="padre-login">
+
+        <div class="login-container">
+            <img src="../images/candado.jpg" alt="Logo" class="logo">
+            <h2>Iniciar sesión</h2>
+            <form id="login-form">
+                <div class="input-container">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+
+
+    </section>
+   
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="../APP/app.js"></script>
+ </body>
+</html>

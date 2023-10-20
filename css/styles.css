@@ -1,0 +1,534 @@
+body {
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+
+}
+
+.titulo-general{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4vw;
+  border-radius: 10px;
+   border: 4px solid transparent;
+   transition: border-color 0.3s ease;
+   transform-style: preserve-3d;
+   margin-bottom: 5rem;
+ } 
+.titulo-general:hover {
+  transform: rotateY(20deg) rotateX(20deg);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  border-image: linear-gradient(45deg, rgb(110, 93, 112), #9f6) 1;
+  border-image-slice: 1;
+  border-color: transparent;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+.presentacion {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.presentacion video {
+  width: 100%; 
+  height: 130%; 
+  object-fit: cover; 
+  margin-top: 0.1rem;
+}
+
+.conteiner-1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 0;
+  margin: 0;
+  border-radius: 20px;
+  background-color: #dee78a;
+  padding: 3vw 0;
+  padding-right: 2vw;
+  box-sizing: border-box;
+}
+
+.principal-btn {
+
+  margin-top: 2vw;
+  padding: 0;
+  margin: 0;
+  height: 40vh;
+ 
+
+}
+
+#carrito{
+margin-top: 8rem ;
+
+}
+
+#numerito{
+  margin-left: 1.5rem;
+  background-color: white;
+  padding: 0.30rem;
+  border-radius: 0.5rem;
+  margin-right: 1.5rem;
+}
+
+.menu-categorias {
+display: flex;
+flex-direction: column; 
+margin-right: 0;
+padding-right: 0;
+position: relative;
+}
+
+.lista{
+justify-content:space-between;
+margin-top: 4vw;
+
+height: 40vh;
+
+}
+.titulo-categoria{
+  margin-left: 8vw;
+}
+
+.menu-categorias button, #carrito {
+display: flex;
+justify-content:flex-start;
+align-items: center;
+gap: 2.7rem;
+font-size: 1.4rem;
+width: 100%;
+min-width: 27vw;
+height: 2.5rem;
+border: 0;
+background-color: transparent;
+border-top-left-radius: 0; 
+border-bottom-left-radius: 0;
+border-top-left-radius: 20px; 
+border-bottom-left-radius: 20px; 
+cursor: pointer;
+margin-left: 15px;
+
+
+}
+.btn-categoria{
+  margin-bottom: 1rem;
+}
+
+.btn-carrito{
+  color: black;
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: flex;
+  gap: 2.7rem;
+
+}
+#carrito:hover{
+  background-color: white;
+}
+#carrito:hover #numerito {
+  background-color:  #dee78a;
+  color: white;
+}
+.btn-carrito,.btn-categoria.active{
+  background-color: white;
+}
+.btn-categoria.active i.bi-hand-index-thumb {
+
+  transform: rotateZ(90deg);
+  transition: transform 0.3s ease;
+}
+
+.titulo-principal{
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+
+.bi-hand-index-thumb{
+  margin-left: 2rem;
+  color: black;
+
+}
+
+.bi-cart-fill{
+  margin-left: 2.5rem;
+
+}
+
+.principal-productos {
+  height: 100%;
+  display: grid;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding: 2vw;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.productos{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 1rem;
+  max-width: 100%;
+  padding: 1vw;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
+
+
+.cart {
+  height: 23rem;
+  min-width: 4rem;
+  max-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 0px #0a0a0a, 2px -3px 3px 1px #111111;
+}
+.product {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+text-align: center;
+overflow: hidden;
+
+}
+
+img {
+height: 10rem;
+width: 100%;
+border-radius: 20px;
+margin-top: 0.5rem;
+
+
+
+
+}
+
+.descripcion{
+font-size: 1rem;
+padding: 0 1vw;
+
+}
+
+.precio{
+font-size: 1.7rem;
+font-weight: bold;
+}
+
+.producto-agregar{
+background: linear-gradient(85deg, #e1ec79, #ffffff);
+color: rgb(12, 11, 11);
+border: none;
+border-radius: 0.3rem;
+box-shadow: 1px 1px black ;
+cursor: pointer;
+transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+margin: 1vw;
+height: 5vh;
+box-sizing: content-box;
+font-size: 1.2rem;
+margin-bottom: 2rem;
+padding: 0.2rem 1.5rem;
+
+
+}
+
+.producto-agregar:hover {
+background: linear-gradient(45deg,#5a6310, #000000);
+transform: scale(1.05);
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+color: #ffffff;
+}
+
+.abajo-card{
+  background-color: #ffffff;
+  width: 104%;
+  margin-top: 10px;
+  min-height: 10rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  border-top: 2px solid transparent; 
+  border-image: linear-gradient(to right, transparent, black, transparent); 
+  border-image-slice: 0.6; 
+}
+
+
+
+
+.parte-2{
+border-radius: 10px;
+  margin-top: 5vw;
+  height: 80vh;
+  width:100%;
+  color: #fff;
+  text-align: center;
+  line-height: 4vw;
+  font-size: 2vw;
+  font-weight: bold;
+  background: linear-gradient(45deg, #740707, #e6d70d);
+  background-size: 200% 200%;
+  transition: background 0.5s ease;
+  position: relative;
+  overflow: hidden; 
+  
+}
+
+.parte-2:hover {
+  animation: gradientShift 4s infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.parte-3{
+    color: #141414;
+    text-align: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.texto {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: opacity 3s ease;
+}
+
+.texto:hover {
+opacity: 1; 
+}
+
+
+
+p {
+margin: 0;
+padding: 0; 
+line-height: 1.5;
+}
+
+.perros{
+width: 80%;
+display: inline-block;
+}
+
+
+.map{
+margin: 5vw 10vw;
+}
+
+@media screen and (max-width: 900px) {
+.conteiner-1 {
+  
+  width: 100%;
+  display: grid;
+  grid-gap: 1vw;
+  padding-left: 2vw;
+ 
+  
+  grid-template-columns: 1fr;
+  grid-template-areas:
+     "botones"
+    "productos";
+
+    
+  }
+  h1{
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+
+
+ 
+  
+  .productos{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 1rem;
+    max-width: 100%;
+    padding: 1vw;
+    border-radius: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+
+
+.principal-btn {
+  width: 24rem;
+  height: 30rem;
+  margin-left: -2vw;
+  margin-bottom: 2rem;
+}
+
+.cart{
+  height: 22rem;
+
+
+}
+
+.lista{
+  justify-content:space-between;
+  margin-top: 2vw;
+  
+  height: 20rem;
+  
+  }
+  
+  .menu-categorias button {
+  gap: 5rem;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 3rem;
+ 
+  }
+}
+
+
+
+.paginacion{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Estilos para la paginación */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Cambio importante: mostrar elementos en línea */
+  justify-content: center;
+  height: 100%; /* Centrar elementos horizontalmente */
+}
+
+.page-item {
+  margin: 5px;
+}
+
+.page-link {
+  text-decoration: none;
+  padding: 8px 12px;
+  color: rgb(46, 43, 43);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.page-link:hover {
+  background-color: #edeff1;
+}
+
+/* Estilos para la información de la página */
+.page-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+
+#gatoAleatorio {
+  min-height: 20rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:  #dee78a;
+  border-radius: 1%;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 3rem;
+}
+
+
+#botonGenerarGato{
+  padding: 10px 30px;
+  width: 50%;
+  background: linear-gradient(85deg, #8d8d04, #ffffff);
+  color: rgb(12, 11, 11);
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px black ;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem auto;
+  height: 2rem;
+  box-sizing: content-box;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  
+  
+  }
+  
+  #botonGenerarGato:hover {
+  background: linear-gradient(45deg,#5a6310, #000000);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  }
+
+
+
+
+#contenedorImagen img {
+  width: 30%; 
+  max-width: 30%; 
+  height: 20rem; 
+  margin-bottom: 20px; 
+}
+
+
+
+
+
+
+

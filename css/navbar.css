@@ -1,0 +1,163 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #daa867;
+    padding: 10px 20px;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 12vh;
+    font-size:0.87rem;
+    
+}
+
+
+
+.titulo {
+    font-size: 2.5vw;
+    margin: 0 1vw;
+    box-sizing: border-box;
+    width: 20rem;
+    color: aliceblue;
+    text-decoration: none;
+    
+   
+
+}
+.titulo-nav {
+    font-size: 2.5vw;
+    margin: 0 1vw;
+    box-sizing: border-box;
+    width: 24rem;
+    color: aliceblue;
+    text-decoration: none;
+    
+   
+
+}
+
+.logos {
+    height: 6em;
+    width:8em;
+    padding-right: 2rem;
+    
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.7rem;
+    
+}
+
+.search input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 1vw;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.search button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 0.5vw;
+}
+
+.hamburger {
+    display: none;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line {
+    width: 6vw;
+    height: 0.7vh;
+    background-color: white;
+    margin: 0.5vw;
+    margin-left: 2rem;
+    
+    
+}
+
+.nav-links {
+    list-style: none;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    
+}
+.search {
+    margin-top: 10px;
+}
+
+.search input[type="text"] {
+    width: 25vw;
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        z-index: 1000;
+        position: absolute;
+        left: 0;
+        top: 12vh;
+        margin-top: 12vh;
+        height: 25vh;
+        background-color:  #daa867;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 0; 
+        padding: 0; 
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    search {
+      width: 120vw;
+    }
+}
+
+.login-icon{
+    color: white;
+    margin: 1.5rem;
+    
+}
+

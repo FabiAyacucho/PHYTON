@@ -1,0 +1,152 @@
+.container-quienes {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 10vh;
+    padding: 1rem;
+    margin-bottom: -2rem;
+}
+
+p {
+    font-family: rob;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin: 1rem 0;
+}
+
+
+.cartas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-bottom: 20vh;
+}
+
+.carta {
+    flex-basis: calc(50% - 20px);
+    background-color: #75f5ea;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carta:hover {
+    transform: scale(1.05);
+}
+
+.carta-image {
+    height: 60%;
+    width: 40%;
+    max-width: 15rem;
+    border-radius: 50%;
+    
+}
+
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+.p-arriba{
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateX(-105%);
+    transition: opacity 0.5s ease, transform 2.5s ease;
+}
+.p-abajo{
+    font-size: 1rem;
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: opacity 5.5s ease, transform 3.5s ease;
+}
+
+.container-quienes:hover p {
+    opacity: 1;
+    transform: translateX(0);
+}
+.contenedor-ima{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: -7rem;
+    margin-top: 2rem;
+    
+}
+.titulo-image{
+    width: 70%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .cartas {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 1rem; 
+    }
+  
+    .carta {
+      flex-basis: 100%; 
+      margin-bottom: 1rem; 
+    }
+    .titulo-image{
+      width: 70%;
+      height: 100%;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+  }
+  }
+  .fly {
+    display: flex;
+    width: 75vw; 
+    
+    height: 50px;
+    justify-content: center;
+    background: url('ruta/a/la/imagen.png') no-repeat center center;
+    background-size: cover;position: absolute;
+    animation: flyAnimation 5s linear infinite;
+    margin-top: 10vh;
+    background-color: transparent;
+    
+  }
+  
+  @keyframes flyAnimation {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20px, 20px);
+    }
+    50% {
+      transform: translate(-20px, -20px);
+    }
+    75% {
+      transform: translate(10px, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  
+  
+  .mosca{
+    display: flex;
+    width: 6vw;
+    height:  8vh;
+    background-color: white;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+  }
+  
+  
+  

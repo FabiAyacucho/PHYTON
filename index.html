@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="../images/favicon.png">
+    <title>Patitas</title>
+</head>
+<body>
+    <header>
+    
+    </header>
+    <nav class="navbar">
+        <img src="images/logis.png" alt="Logo" class="logos">
+        <a href="index.html" class="titulo">INICIO</a>
+        <div class="search">
+            <input type="text" placeholder="Buscar">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+            <ul class="nav-links">
+                <li><a href="templates/nosotros.html" class="navbar-opcion">QUIENES SOMOS</a></li>
+                <li><a href="templates/trabaja_con_nostros.html"class="navbar-opcion">TRABAJA CON NOSOTROS</a></li>
+            </ul>
+            <div class="izquierda"></div>
+            <a href="templates/carrito.html" class="login-icon"><i class="fas fa-shopping-cart"></i></a>
+            <a href="templates/login.html" class="login-icon"><i class="fas fa-user"></i></a>
+            <a href="templates/carrito.html" class="login-icon"><i class="far fa-heart"></i></a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="presentacion">
+               
+    
+            <video autoplay loop muted poster="">
+                <source src="images/baby_dog13.mp4" type="video/mp4">
+                Tu navegador no admite la reproducción de video.
+            </video>
+        </div>
+                
+                <h1 class="titulo-general">Carrito de Compras</h1>
+
+            <section class="conteiner-1" id="conteiner-1">
+                
+                <article class="principal-btn">
+                    <div class="menu-categorias">
+                        <h2 class="titulo-categoria">CATEGORIAS</h2>
+                        <ul class="lista">
+                            <li>
+                                <button id="todos" class="btn-categoria" ><i class="bi bi-hand-index-thumb"></i>Todos</button>
+                            </li>
+                            <li>
+                                <button id="Alimento" class="btn-categoria" ><i class="bi bi-hand-index-thumb"></i>Alimento</button>
+                            </li>
+                            <li>
+                                <button id="Accesorio" class="btn-categoria" ><i class="bi bi-hand-index-thumb"></i>Accesorios</button>
+                            </li>
+                            <li>
+                                <button id="Juguetes" class="btn-categoria" ><i id="carrito-boton" class="bi bi-hand-index-thumb"></i>Juguetes</button>
+                            </li>
+                            <li>
+                            <a class="btn-carrito" id="carrito" href="./templates/carrito.html">
+                                <i class="bi bi-cart-fill"></i>Carrito
+                                <span id="numerito">0</span></a>
+                            </li>
+                        </ul>
+                        
+                     </div>
+                </article>
+
+                <!--esto se carga js -->
+        
+            
+                <article  class="principal-productos">
+                    <h2 class="titulo-principal" id="titulo-principal">Todos los productos </h2>
+                    
+                  <div id="contenedor-productos" class="productos"> 
+                   
+                </div>
+             
+                    
+                <div class="pagination-container">
+                    <ul class="pagination">
+                        <!-- Botón "Anterior" -->
+                        <li class="page-item prev-page">
+                            <a href="index.html#conteiner-1" class="page-link">Anterior</a>
+                        </li>
+                        <!-- Páginas numeradas -->
+                        <li class="page-item">
+                            <a href="index.html#conteiner-1" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="index.html#conteiner-1" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="index.html#conteiner-1" class="page-link">3</a>
+                        </li>
+                        <!-- Botón "Siguiente" -->
+                        <li class="page-item next-page">
+                            <a href="index.html#conteiner-1" class="page-link">Siguiente</a>
+                        </li>
+                    </ul>
+                    <p class="page-info">Página 1 de 3</p>
+                </div>
+                    
+
+
+                </article>
+                
+                
+           
+            </section>
+           
+            <section class="parte-2">
+              
+                    <div class="texto">
+                      <h2>20 AÑOS NOS AVALAN </h2>
+                      <p>¡¡ CONOCEMOS LO QUE HACEMOS, AMAMOS LO QUE HACEMOS !!</p>
+                   
+                  </div>
+
+            </section>
+            </div>
+          
+                <div id="gatoAleatorio">
+                    <h3> Generador de gatos</h3>
+                    <h4>Genera fotografías de gatos al presionar el botón!</h4>
+                  <div id="contenedorImagen">
+                   <img id="imagenGato" src="" alt="Imagen de gato aleatoria">
+                  </div>
+                    <button id="botonGenerarGato">Generar gato</button>
+                </div> 
+
+            <div class="container-form">
+                <h1 id="contacto" class="titulo-general">Contacto</h1>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre" class="input-field">
+                    <input type="email" placeholder="Correo Electrónico" class="input-field">
+                    <input type="tel" placeholder="Telefono" class="input-field">
+                    <textarea placeholder="Mensaje" class="input-field textarea"></textarea>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+
+                <section class="parte-3">
+                    <div class="texto1">
+                        <h2>Donde estamos</h2>
+                    
+                    </div>
+
+                </section>  
+
+                <div class="map">
+    
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.624943397525!2d-58.47608900000001!3d-34.63891709999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc979526f02cd%3A0xd9ca238fb62145cd!2sAv.%20Directorio%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1694687424536!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+            </div>
+
+
+            <footer>
+                <div class="footer-container">
+                    <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </footer>
+
+           
+    </main>
+    <script src="APP/app.js"></script>
+    <script src="APP/pruebas.js"></script>
+    <script src="APP/catapi.js"></script>
+</body>
+</html>

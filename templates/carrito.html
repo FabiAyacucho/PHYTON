@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <title>Carrito de compras</title>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="../images/logis.png" alt="Logo" class="logos">
+    <a href="../index.html" class="titulo">INICIO</a>
+    <div class="search">
+        <input type="text" placeholder="Buscar">
+        <button><i class="fas fa-search"></i></button>
+    </div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+        <ul class="nav-links">
+            <li><a href="templates/nosotros.html" class="navbar-opcion">QUIENES SOMOS</a></li>
+            <li><a href="templates/trabaja_con_nostros.html"class="navbar-opcion">TRABAJA CON NOSOTROS</a></li>
+        </ul>
+        <div class="izquierda"></div>
+        <a href="../templates/carrito.html" class="login-icon"><i class="fas fa-shopping-cart"></i></a>
+        <a href="../templates/login.html" class="login-icon"><i class="fas fa-user"></i></a>
+        <a href="../templates/carrito.html" class="login-icon"><i class="far fa-heart"></i></a>
+    </div>
+</nav>
+
+
+  <div class="wrapper">
+    <h1 class="animated-title">Carrito de compras</h1>
+    <svg class="animated-border" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="0,50 50,0 100,50 50,100" fill="none" stroke="#dee78a" stroke-width="4" />
+    </svg>
+  </div>
+
+    
+   <main class="conteiner-1">
+    
+      <article class="principal-btn">
+        <div class="menu-categorias">
+            <h2 class="titulo-categoria-compras">Tus compras</h2>
+            <ul class="lista" id="lista-carrito">
+               
+                <li>
+                    <a class="btn-carrito-compras" id="volver" href="../index.html#conteiner-1">
+                      <i class="bi bi-arrow-return-left"></i>Seguir comprando
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-carrito" id="carrito" href="carrito.html">
+                      <i class="bi bi-cart-fill"></i>Carrito
+                    </a>
+                </li>
+            </ul>
+            
+         </div>
+      </article>
+
+
+    <section class="principal-productos">
+     <h2 class="titulo-principal">Carrito</h2>
+     <div class="contenedor-carrito"> 
+        
+       <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio. <i class="bi bi-emoji-frown"></i></p>
+       
+     <div id="carrito-productos" class="carrito-productos disabled">
+
+            <!--esto se rellena del js-->
+
+     </div>
+        
+    
+         
+        <div id="carrito-acciones" class="carrito-acciones disabled">
+            <div class="carrito-acciones-izquierda">
+              <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+            </div>
+           <div class="carrito-acciones-derecha">
+              <div class="carrito-acciones-total">
+                <p>total:</p>
+                <p id="total">$3000</p>
+              </div>
+               <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+            </div>
+        </div>
+
+        <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+     
+      </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+          <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </footer>
+ 
+   <script src="../APP/carrito.js"></script>
+</body>
+</html>
