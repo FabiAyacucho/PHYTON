@@ -9,7 +9,7 @@ const productos = [
       titulo: 'Producto 1',
       descripcion: 'Descripción del Producto 1',
       precio: 3699.00,
-      imagen: '../images/1.jpg',
+      imagen: 'images/1.jpg',
       categoria: {
         nombre:'Juguetes',
         id:'Juguetes'
@@ -20,7 +20,7 @@ const productos = [
       titulo: 'Producto 2',
       descripcion: 'Descripción del Producto 2',
       precio: 2554.00,
-      imagen: '../images/2.jpg',
+      imagen: 'images/2.jpg',
       categoria: {
         nombre:'Alimento',
         id:'Alimento'
@@ -32,7 +32,7 @@ const productos = [
         titulo: 'Producto 3',
         descripcion: 'Descripción del Producto 3',
         precio: 2554.00,
-        imagen: '../images/3.jpg',
+        imagen: 'images/3.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -44,7 +44,7 @@ const productos = [
         titulo: 'Producto 4',
         descripcion: 'Descripción del Producto 4',
         precio: 1150.00,
-        imagen: '../images/4.jpg',
+        imagen: 'images/4.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -55,7 +55,7 @@ const productos = [
         titulo: 'Producto 5',
         descripcion: 'Descripción del Producto 5',
         precio: 1250.00,
-        imagen: '../images/5.jpg',
+        imagen: 'images/5.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -66,7 +66,7 @@ const productos = [
         titulo: 'Producto 6',
         descripcion: 'Descripción del Producto 6',
         precio: 2554.00,
-        imagen: '../images/6.jpg',
+        imagen: 'images/6.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -78,7 +78,7 @@ const productos = [
         titulo: 'Producto ',
         descripcion: 'Descripción del Producto 7',
         precio: 1150.00,
-        imagen: '../images/7.jpg',
+        imagen: 'images/7.jpg',
         categoria: {
           nombre:'Accesorio',
           id:'Accesorio'
@@ -89,7 +89,7 @@ const productos = [
         titulo: 'Producto 8',
         descripcion: 'Descripción del Producto 8',
         precio: 1250.00,
-        imagen: '../images/8.jpg',
+        imagen: 'images/8.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -100,7 +100,7 @@ const productos = [
         titulo: 'Producto 9',
         descripcion: 'Descripción del Producto 9',
         precio: 1250.00,
-        imagen: '../images/9.jpg',
+        imagen: 'images/9.jpg',
         categoria: {
           nombre:'Alimento',
           id:'Alimento'
@@ -113,7 +113,7 @@ const productos = [
           titulo: 'Producto 10',
           descripcion: 'Descripción del Producto 10',
           precio: 987.00,
-          imagen: '../images/10.jpg',
+          imagen: 'images/10.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -124,7 +124,7 @@ const productos = [
           titulo: 'Producto 11',
           descripcion: 'Descripción del Producto 11',
           precio: 987.00,
-          imagen: '../images/11.jpg',
+          imagen: 'images/11.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -135,7 +135,7 @@ const productos = [
           titulo: 'Producto 12',
           descripcion: 'Descripción del Producto 12',
           precio: 987.00,
-          imagen: '../images/12.jpg',
+          imagen: 'images/12.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -146,7 +146,7 @@ const productos = [
           titulo: 'Producto 13',
           descripcion: 'Descripción del Producto 13',
           precio: 987.00,
-          imagen: '../images/13.jpg',
+          imagen: 'images/13.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -157,7 +157,7 @@ const productos = [
           titulo: 'Producto 14',
           descripcion: 'Descripción del Producto 14',
           precio: 987.00,
-          imagen: '../images/14.jpg',
+          imagen: 'images/14.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -168,7 +168,7 @@ const productos = [
           titulo: 'Producto 15',
           descripcion: 'Descripción del Producto 15',
           precio: 2654.00,
-          imagen: '../images/15.jpg',
+          imagen: 'images/15.jpg',
           categoria: {
             nombre:'Juguetes',
             id:'Juguetes'
@@ -179,7 +179,7 @@ const productos = [
           titulo: 'Producto 16',
           descripcion: 'Descripción del Producto 16',
           precio: 2350.00,
-          imagen: '../images/16.jpg',
+          imagen: 'images/16.jpg',
           categoria: {
             nombre:'Juguetes',
             id:'Juguetes'
@@ -190,7 +190,7 @@ const productos = [
             titulo: 'Producto 17',
             descripcion: 'Descripción del Producto 17',
             precio: 3699.00,
-            imagen: '../images/17.jpg',
+            imagen: 'images/17.jpg',
             categoria: {
               nombre:'Juguetes',
               id:'Juguetes'
@@ -201,7 +201,7 @@ const productos = [
             titulo: 'Producto 18',
             descripcion: 'Descripción del Producto 18',
             precio: 3350.00,
-            imagen: '../images/18.jpg',
+            imagen: 'images/18.jpg',
             categoria: {
               nombre:'Juguetes',
               id:'Juguetes'
@@ -214,7 +214,7 @@ const productos = [
           titulo: 'Producto 19',
           descripcion: 'Descripción del Producto 19',
           precio: 2654.00,
-          imagen: '../images/19.jpg',
+          imagen: 'images/19.jpg',
           categoria: {
             nombre:'Juguetes',
             id:'Juguetes'
@@ -225,7 +225,7 @@ const productos = [
           titulo: 'Producto 20',
           descripcion: 'Descripción del Producto 20',
           precio: 2350.00,
-          imagen: '../images/20.jpg',
+          imagen: 'images/20.jpg',
           categoria: {
             nombre:'Juguetes',
             id:'Juguetes'
@@ -236,7 +236,7 @@ const productos = [
             titulo: 'Producto 21',
             descripcion: 'Descripción del Producto 21',
             precio: 3699.00,
-            imagen: '../images/21.jpg',
+            imagen: 'images/21.jpg',
             categoria: {
               nombre:'Juguetes',
               id:'Juguetes'
@@ -247,7 +247,7 @@ const productos = [
             titulo: 'Producto 22',
             descripcion: 'Descripción del Producto 22',
             precio: 3350.00,
-            imagen: '../images/22.jpg',
+            imagen: 'images/22.jpg',
             categoria: {
               nombre:'Juguetes',
               id:'Juguetes'
@@ -258,7 +258,7 @@ const productos = [
             titulo: 'Producto 23',
             descripcion: 'Descripción del Producto 23',
             precio: 2304.00,
-            imagen: '../images/23.jpg',
+            imagen: 'images/23.jpg',
             categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -269,7 +269,7 @@ const productos = [
           titulo: 'Producto 23',
           descripcion: 'Descripción del Producto 23',
           precio: 2304.00,
-          imagen: '../images/23.jpg',
+          imagen: 'images/23.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -280,7 +280,7 @@ const productos = [
           titulo: 'Producto 24',
           descripcion: 'Descripción del Producto 24',
           precio: 1985.00,
-          imagen: '../images/24.jpg',
+          imagen: 'images/24.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -291,7 +291,7 @@ const productos = [
           titulo: 'Producto 25',
           descripcion: 'Descripción del Producto 25',
           precio: 1266.00,
-          imagen: '../images/25.jpg',
+          imagen: 'images/25.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -302,7 +302,7 @@ const productos = [
           titulo: 'Producto 26',
           descripcion: 'Descripción del Producto 26',
           precio: 987.00,
-          imagen: '../images/26.jpg',
+          imagen: 'images/26.jpg',
           categoria: {
             nombre:'Accesorio',
             id:'Accesorio'
@@ -313,7 +313,7 @@ const productos = [
           titulo: 'Producto 27',
           descripcion: 'Descripción del Producto 27',
           precio: 2039.00,
-          imagen: '../images/27.jpg',
+          imagen: 'images/27.jpg',
           categoria: {
             nombre:'Alimento',
             id:'Alimento'
@@ -324,7 +324,7 @@ const productos = [
           titulo: 'Producto 28',
           descripcion: 'Descripción del Producto 28',
           precio: 1040.00,
-          imagen: '../images/28.jpg',
+          imagen: 'images/28.jpg',
           categoria: {
             nombre:'Alimento',
             id:'Alimento'
@@ -335,7 +335,7 @@ const productos = [
           titulo: 'Producto 29',
           descripcion: 'Descripción del Producto 29',
           precio: 2699.00,
-          imagen: '../images/29.jpg',
+          imagen: 'images/29.jpg',
           categoria: {
             nombre:'Alimento',
             id:'Alimento'
