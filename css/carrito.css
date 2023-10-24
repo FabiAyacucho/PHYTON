@@ -7,6 +7,10 @@
     flex-direction: column;
     gap: 1rem;   
 }
+.titulo-categoria-compras{
+  margin-left: 4rem;
+  font-size: 2rem;
+}
 
 .wrapper {
     position: relative;
