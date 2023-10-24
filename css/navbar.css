@@ -1,6 +1,10 @@
 
 .navbar {
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background-color: #daa867;
     padding: 10px 20px;
@@ -13,36 +17,21 @@
     
 }
 
-
-
 .titulo {
-    font-size: 2.5vw;
-    margin: 0 1vw;
+    font-size: 1.7rem;
+    margin: 0 1.5rem;
     box-sizing: border-box;
-    width: 20rem;
     color: aliceblue;
     text-decoration: none;
     
-   
-
-}
-.titulo-nav {
-    font-size: 2.5vw;
-    margin: 0 1vw;
-    box-sizing: border-box;
-    width: 24rem;
-    color: aliceblue;
-    text-decoration: none;
-    
-   
-
 }
 
 .logos {
-    height: 6em;
-    width:8em;
-    padding-right: 2rem;
-    
+    height: 12vh;
+    width:5rem;
+    padding: 0;
+    margin: 0 1rem;
+ 
 }
 
 .search {
@@ -74,10 +63,10 @@
 
 .hamburger {
     display: none;
-    width: 15%;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 .line {
@@ -92,16 +81,15 @@
 
 .nav-links {
     list-style: none;
-    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0vw 2vw;
+    padding: 0vw 0.5vw;
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 1vw;
 }
 
 .nav-links a {
@@ -114,11 +102,33 @@
 }
 
 .search input[type="text"] {
-    width: 25vw;
+    width: 15vw;
     margin-right: 1vw;
 }
 
-@media screen and (max-width: 1000px) {
+.login-icon{
+    color: white;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    
+    
+}
+
+.contenedor-derecha{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
+
+.izquierda{
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 1050px) {
     .hamburger {
         display: flex;
     }
@@ -148,16 +158,60 @@
     }
 
     .nav-links li {
-        margin: 10px 0;
+        margin: 2vw 0;
     }
-    search {
-      width: 120vw;
+    .titulo{
+        font-size: 1.3rem;
     }
+    .login-icon{
+        font-size: 0.9rem;
+    
+        
+    }
+    .contenedor-derecha{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        
+    }
+    .izquierda{
+        width: auto;
+        margin: 0.2rem;
+       
+        
+    }
+  
 }
 
-.login-icon{
-    color: white;
-    margin: 1.5rem;
+@media only screen and (max-width: 567px) {
+
+    .titulo{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+    .login-icon{
+        font-size: 0.8rem;
     
+        
+    }
+    .contenedor-derecha{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        
+    }
+    .izquierda{
+        width: 6rem;
+        margin: 0.2rem;
+        margin-right: 0;
+        margin-left: 0.5rem;
+       
+        
+    }
+  
 }
+
 

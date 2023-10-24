@@ -2,6 +2,8 @@ body {
   font-family: roboto;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 
 }
 
@@ -38,13 +40,13 @@ ul {
 
 
 .presentacion {
-  width: 99%;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
 .presentacion video {
-  width: 99%; 
+  width: 100%; 
   height: 130%; 
   object-fit: cover; 
   margin-top: 0.1rem;
@@ -177,7 +179,7 @@ margin-left: 15px;
   max-width: 100%;
   min-height: 100vh;
   background-color: rgb(255, 255, 255);
-  padding: 2vw;
+  padding: 2rem;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -478,7 +480,7 @@ margin: 5vw 10vw;
     .productos{
       height: 100%;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); 
       gap: 1rem;
       max-width: 100%;
       padding: 1vw;
@@ -495,6 +497,7 @@ margin: 5vw 10vw;
     margin-left: -2vw;
     margin-bottom: 2rem;
   }
+  
   
   .cart{
     height: 22rem;
@@ -520,19 +523,23 @@ margin: 5vw 10vw;
   }
   
   @media only screen and (max-width: 567px) {
-      
+
     body{
-      width: 130%;
+      width: 100%;
     }
+      
+  
     .presentacion{
-      width: 130%;
+      width: 100%;
     }
     .conteiner-1 {
+      box-sizing: border-box;
       
-      width: 130%;
+      width: 100%;
       display: grid;
       grid-gap: 1vw;
       padding-left: 2vw;
+    
      
       
       grid-template-columns: 1fr;
@@ -542,11 +549,12 @@ margin: 5vw 10vw;
     
         
       }
-      h1{
-        font-size: 3.5rem;
-        margin-bottom: 3.5rem;
+      .titulo-general{
+        margin-top: 2.5rem;
       }
+     
       #carrito{
+        margin-top: 3rem;
         
       }
     
