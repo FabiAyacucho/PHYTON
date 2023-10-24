@@ -192,6 +192,11 @@ margin-top: 2rem;
     margin-top: 2rem;
     margin-left: 3rem;
  }
+ .gis carrito-comprado{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
  
  #lista-carrito{
    display: flex;
