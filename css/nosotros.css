@@ -103,6 +103,11 @@ h2 {
       margin-top: 4rem;
       margin-bottom: 4rem;
   }
+
+  .contenedor-ima{
+    margin-top: 5rem;
+    
+  }
   }
   .fly {
     display: flex;
@@ -147,6 +152,13 @@ h2 {
     margin-top: 2.5rem;
 
   }
-  
-  
+  @media (min-width: 568px){
+
+    .contenedor-ima{
+      margin-top: 15rem;
+      
+    }
+
+  }
+
   
