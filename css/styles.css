@@ -6,6 +6,9 @@ body {
   box-sizing: border-box;
 
 }
+h2{
+  font-size: 2rem;
+}
 
 .titulo-general{
   font-size: 3rem;
@@ -328,6 +331,7 @@ border-radius: 10px;
 
 .texto {
 position: absolute;
+line-height: 0.9;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -342,7 +346,7 @@ opacity: 1;
 p {
 margin: 0;
 padding: 0; 
-line-height: 1.5;
+line-height: 2;
 }
 
 .perros{
@@ -444,8 +448,8 @@ margin: 5vw 10vw;
   }
 
 #contenedorImagen img {
-  width: 30%; 
-  max-width: 30%; 
+  width: 50%; 
+  max-width: 60%; 
   height: 20rem; 
   margin-bottom: 20px; 
   object-fit: cover; 
@@ -551,6 +555,7 @@ margin: 5vw 10vw;
       }
       .titulo-general{
         margin-top: 2.5rem;
+        font-size: 2.5rem;
       }
      
       #carrito{

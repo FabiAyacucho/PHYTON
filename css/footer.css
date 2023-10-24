@@ -24,22 +24,23 @@ footer {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    margin-top: 1.5rem;
     
 }
 
 .footer-container p {
     margin: 1.5vw 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .social-icons {
     margin: 1.5vw;
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 
 .social-icons a {
     color: #fff;
-    font-size: 2vw;
+    font-size: 0.8rem;
     margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s ease;

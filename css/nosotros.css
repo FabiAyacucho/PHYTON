@@ -105,20 +105,20 @@ h2 {
   }
 
   .contenedor-ima{
-    margin-top: 5rem;
+    margin-top: 1rem;
     
   }
+ 
   }
   .fly {
     display: flex;
     width: 75vw; 
-    
     height: 50px;
     justify-content: center;
     background: url('ruta/a/la/imagen.png') no-repeat center center;
     background-size: cover;position: absolute;
     animation: flyAnimation 5s linear infinite;
-    margin-top: 10vh;
+    margin-top: 4rem;
     background-color: transparent;
     
   }
@@ -149,16 +149,28 @@ h2 {
     height:  8vh;
     background-color: white;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-right: 1.7rem;
 
   }
-  @media (min-width: 568px){
+  @media (max-width: 568px){
 
     .contenedor-ima{
-      margin-top: 15rem;
+      margin-top: 5rem;
       
     }
-
+    .mosca{
+      display: flex;
+      width: 6vw;
+      height:  8vh;
+      background-color: white;
+      justify-content: center;
+      margin-top: 2rem;
+  
+    }
+    .fly {
+      margin-top: 2rem;
+    }
+  
   }
 
   

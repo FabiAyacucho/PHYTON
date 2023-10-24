@@ -2,6 +2,11 @@
  margin-top: 2rem;
  margin-bottom: 3rem;
 }
+
+.conteiner-1-carrito{
+  width: 100%;
+  box-sizing: border-box;
+}
 .carrito-productos{
     display: flex;
     flex-direction: column;
@@ -59,13 +64,14 @@
   }
   
 
-
 .principal-productos{
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 .carrito-producto{
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     background-color:rgb(238, 235, 235) ;
@@ -176,6 +182,7 @@ margin-left: 15px;
 color: black;
 text-decoration: none;
 margin-top: 2rem;
+padding: 0.3rem;
   
 }
 
@@ -190,12 +197,12 @@ margin-top: 2rem;
  .carrito-vacio{
     font-size: 1.5rem;
     margin-top: 2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
  }
- .gis carrito-comprado{
-  font-size: 1.5rem;
+ .carrito-comprado{
+  font-size: 1.3rem;
   margin-top: 2rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
  
  #lista-carrito{
@@ -205,7 +212,43 @@ margin-top: 2rem;
  }
  #carrito{
     height: 2rem;
+    padding: 0.5rem;
  }
+ #principal-btn-carrito{
+  height: 50vh;
+ }
+
+ @media only screen and (max-width: 567px) {
+
+
+     
+  .carrito-acciones{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  h3{
+    font-size: 0.6rem;
+  }
+  p{
+    font-size: 0.6rem;
+  }
+  small{
+    font-size: 0.1rem;
+  }
+  .carrito-acciones-total{
+    padding: 0.8rem;
+    width: auto;
+    font-size: 2rem;
+  }
+  .carrito-acciones-total p {
+    font-size: 1rem;
+  }
  
+ 
+   
+  }
+ 
+
 
 
